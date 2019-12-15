@@ -30,13 +30,12 @@
               <p style="text-align:center">
                 <name>Ankur Kumar</name>
               </p>
-              <p>I am a research engineer at <a href="https://research.samsung.com/sri-b">Samsung R&D Institute, Bangalore</a>, where I work on End-to-End Speech Recognition for Bixby in collaboration with the Speech Processing Lab at Samsung Research, Korea.
+              <p style="text-align:justify">I am a research engineer at <a href="https://research.samsung.com/sri-b">Samsung R&D Institute, Bangalore</a>, where I work on End-to-End Speech Recognition for Bixby in collaboration with the Speech Processing Lab at Samsung Research, Korea.
               </p>
-	      <p>Prior to this, I graduated from <a href="http://iitk.ac.in">Indian Institute of Technology Kanpur</a> with a major in Computer Science and Engineering.
+	      <p style="text-align:justify">Prior to this, I graduated from <a href="http://iitk.ac.in">Indian Institute of Technology Kanpur</a> with a major in Computer Science and Engineering.
               </p>
-              <!-- p>
-                At Google I've worked on <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://www.google.com/get/cardboard/jump/">Jump</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, and <a href="https://www.youtube.com/watch?v=JSnB06um5r4">Glass</a>. I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a> and funded by the <a href="http://www.nsfgrfp.org/">NSF GRFP</a>. I did my bachelors at the <a href="http://cs.toronto.edu">University of Toronto</a>.
-              </p -->
+	      <p style="text-align:justify">Research Interests: Deep Learning, Generative Modeling, Unsupervised Learning
+              </p>
               <p style="text-align:center">
                 <a href="mailto:ankur26196@gmail.com">Email</a> &nbsp/&nbsp
                 <a href="data/Ankur-CV.pdf">CV</a> &nbsp/&nbsp
@@ -51,14 +50,24 @@
           </tr>
         </tbody></table>
 	
+	<!-- UPDATES SECTION -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Updates</heading>
+            </td>
+          </tr>
+            <td><ul style="list-style-type:circle;">
+		    <li>[Dec 2019] An on-device version of our streaming E2E ASR model was released for Samsung's flagship smartphones</li>
+		</ul>
+            </td>
+        </tbody></table>
+
 	<!-- RESEARCH SECTION -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
-              <p>
-                I'm interested in deep learning, generative modeling and unsupervised learning.     
-              </p>
             </td>
           </tr>
         </tbody></table>
@@ -83,13 +92,14 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-		<a href=https://cmsworkshops.com/ASRU2019/Papers/ViewPaper.asp?PaperNum=1066>
-                <papertitle>IMPROVED MULTI-STAGE TRAINING OF ONLINE ATTENTION-BASED ENCODER-DECODER MODELS</papertitle>
+		<!-- a href=https://cmsworkshops.com/ASRU2019/Papers/ViewPaper.asp?PaperNum=1066 -->
+		<a href="data/ASRU2019.pdf">
+                <papertitle>Improved Multi-stage Training of Online Attention-based Encoder-Decoder Models</papertitle>
 		</a>
               <br>
-              <em>Abhinav Garg, Dhananjaya Gowda, Ankur Kumar, Kwangyoun Kim, Mehul Kumar, Chanwoo Kim</em>, IEEE Automatic Speech Recognition and Understanding Workshop, 2019
+              <!-- em>Abhinav Garg, Dhananjaya Gowda, Ankur Kumar, Kwangyoun Kim, Mehul Kumar, Chanwoo Kim</em --><em>IEEE Automatic Speech Recognition and Understanding Workshop, 2019</em>
               <p></p>
-              <p>Details to appear soon...</p>
+              <p style="text-align:justify">In this paper, we propose a refined multi-stage multi-task training strategy to improve the performance of online attention-based encoder-decoder models. Our experiments involve two-levels of linguistic granularity namely, character and BPE. We explore different pre-training strategies for the encoders including transfer learning from a bidirectional encoder. Our encoder-decoder models with online attention show 35% and 10% improvement over their baselines for smaller and bigger models, respectively. Our models achieve a word error rate of 5.04% and 4.48% on the Librispeech test-clean data for the smaller and bigger models respectively after fusion with LSTM-based external language model.</p>
             </td>
           </tr>
 
@@ -116,7 +126,7 @@
               <br>
               <em>Research Intern at Adobe Systems</em>, 2017
               <p></p>
-              <p> The work served as a proof of concept to leverage the vast amount of unused data using weak supervision. Specifically, I worked to utilize social media videos to create promotional videos for brands. I built an RNN-based autoregressive model that would output a sequence of features based on a training corpus of brand videos. Using these features, I extracted relevant video segments from a pool of social media videos via clustering techniques and used those segments to stitch a new video.</p>
+              <p style="text-align:justify"> The work served as a proof of concept to leverage the vast amount of unused data using weak supervision. Specifically, I worked to utilize social media videos to create promotional videos for brands. I built an RNN-based autoregressive model that would output a sequence of features based on a training corpus of brand videos. Using these features, I extracted relevant video segments from a pool of social media videos via clustering techniques and used those segments to stitch a new video.</p>
             </td>
           </tr>
           
@@ -156,7 +166,7 @@
               <em>Natural Language Processing Course Project</em>, 2018 &nbsp <!-- font color="red"><strong>(Oral Presentation)</strong></font -->
               <br>
               <p></p>
-              <p>We built a pipeline for fact-based question generation with paragraph as input. To this end, we constructed a sentence classifier, which would classify a sentence containing facts as positive with 71% accuracy over SQuAD dataset. These positive sentences and corresponding questions were used to train an attention-based encoder-decoder model. We also experimented with different attention mechanisms discussed in the paper "Effective Approaches to Attention-based Neural Machine Translation".</p>
+              <p style="text-align:justify">We built a pipeline for fact-based question generation with paragraph as input. To this end, we constructed a sentence classifier, which would classify a sentence containing facts as positive with 71% accuracy over SQuAD dataset. These positive sentences and corresponding questions were used to train an attention-based encoder-decoder model. We also experimented with different attention mechanisms discussed in the paper "Effective Approaches to Attention-based Neural Machine Translation".</p>
             </td>
           </tr>
 
@@ -186,7 +196,7 @@
               <em>Topics in Probabilistic Modeling and Inference Course Project</em>, 2018 &nbsp <!-- font color="red"><strong>(Oral Presentation)</strong></font -->
               <br>
               <p></p>
-              <p>The objective was to explore Edward, a probabilistic modeling framework in Python, for its high level abstraction to random variables and inferences as well as its plug and play architecture. We implemented Adversarial Variational Bayes (AVB) in Edward and obtained results comparable with that in the paper by Mescheder et. al. on binarized MNIST dataset.</p>
+              <p style="text-align:justify">The objective was to explore Edward, a probabilistic modeling framework in Python, for its high level abstraction to random variables and inferences as well as its plug and play architecture. We implemented Adversarial Variational Bayes (AVB) in Edward and obtained results comparable with that in the paper by Mescheder et. al. on binarized MNIST dataset.</p>
             </td>
           </tr>
 
@@ -217,7 +227,7 @@ Generative Adversarial Networks</papertitle>
               <em>Visual Recognition Course Project</em>, 2017 &nbsp <!-- font color="red"><strong>(Oral Presentation)</strong></font -->
               <br>
               <p></p>
-              <p>We experimented with different GAN architectures for domain adaptation using classification task. Our result confirms that the proposed model, PixelDA-GAN, outperforms the baseline, which is a model trained on source only dataset. However, we also found that replacing PixelDA GAN with LS-GAN resulted in even better performance.</p>
+              <p style="text-align:justify">We experimented with different GAN architectures for domain adaptation using classification task. Our result confirms that the proposed model, PixelDA-GAN, outperforms the baseline, which is a model trained on source only dataset. However, we also found that replacing PixelDA GAN with LS-GAN resulted in even better performance.</p>
 	    <p align="right"><font size="0">
 	    <a href="http://www.cs.berkeley.edu/~barron">Thanks to Jon Barron!</a>
 	    </font></p>
